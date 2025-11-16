@@ -1,0 +1,171 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "products": [
+    {
+      "name": "Canvas Sneakers",
+      "sku": "SKU001",
+      "description": "Lightweight canvas sneakers for everyday wear.",
+      "price": 1499,
+      "sale_price": 1299,
+      "categories": ["Footwear", "Casual"],
+      "tags": ["shoes", "sneakers"],
+      "sizes": ["6", "7", "8", "9", "10"],
+      "colors": ["Black", "White"],
+      "stock": [
+        { "size": "8", "color": "Black", "quantity": 12 },
+        { "size": "9", "color": "White", "quantity": 6 }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1542293787938-c9e299b88054?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Denim Jacket",
+      "sku": "SKU002",
+      "description": "Classic denim jacket with modern fit.",
+      "price": 2499,
+      "sale_price": null,
+      "categories": ["Apparel"],
+      "tags": ["jacket", "denim"],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Blue"],
+      "stock": [{ "size": "M", "color": "Blue", "quantity": 8 }],
+      "images": [
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Smartwatch Lite",
+      "sku": "SKU003",
+      "description": "Fitness tracking with notifications.",
+      "price": 2999,
+      "sale_price": 2799,
+      "categories": ["Electronics"],
+      "tags": ["watch"],
+      "sizes": [],
+      "colors": ["Black", "Silver"],
+      "stock": [{ "size": "", "color": "Black", "quantity": 15 }],
+      "images": [
+        "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Wireless Earbuds",
+      "sku": "SKU004",
+      "description": "Compact earbuds with charging case.",
+      "price": 1999,
+      "sale_price": 1599,
+      "categories": ["Electronics"],
+      "tags": ["audio"],
+      "sizes": [],
+      "colors": ["White"],
+      "stock": [{ "size": "", "color": "White", "quantity": 20 }],
+      "images": [
+        "https://images.unsplash.com/photo-1585386959984-a41552231658?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Cotton T-Shirt",
+      "sku": "SKU005",
+      "description": "Soft cotton tee in multiple colors.",
+      "price": 699,
+      "sale_price": 499,
+      "categories": ["Apparel"],
+      "tags": ["tshirt"],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "White", "Red"],
+      "stock": [{ "size": "L", "color": "Black", "quantity": 25 }],
+      "images": [
+        "https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Running Shorts",
+      "sku": "SKU006",
+      "description": "Breathable shorts for workouts.",
+      "price": 899,
+      "sale_price": null,
+      "categories": ["Apparel"],
+      "tags": ["shorts"],
+      "sizes": ["S", "M", "L"],
+      "colors": ["Navy"],
+      "stock": [{ "size": "M", "color": "Navy", "quantity": 18 }],
+      "images": [
+        "https://images.unsplash.com/photo-1597575375281-5985e5f9c53a?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Leather Belt",
+      "sku": "SKU007",
+      "description": "Genuine leather belt with metal buckle.",
+      "price": 1199,
+      "sale_price": 999,
+      "categories": ["Accessories"],
+      "tags": ["belt"],
+      "sizes": ["M", "L"],
+      "colors": ["Brown", "Black"],
+      "stock": [{ "size": "L", "color": "Brown", "quantity": 9 }],
+      "images": [
+        "https://images.unsplash.com/photo-1582439488912-5ce0f1a57057?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Backpack 20L",
+      "sku": "SKU008",
+      "description": "Everyday backpack with laptop sleeve.",
+      "price": 1599,
+      "sale_price": 1399,
+      "categories": ["Bags"],
+      "tags": ["backpack"],
+      "sizes": [],
+      "colors": ["Gray"],
+      "stock": [{ "size": "", "color": "Gray", "quantity": 14 }],
+      "images": [
+        "https://images.unsplash.com/photo-1547919307-1ecb1278b3f9?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Sunglasses UV400",
+      "sku": "SKU009",
+      "description": "Stylish sunglasses with UV protection.",
+      "price": 1299,
+      "sale_price": null,
+      "categories": ["Accessories"],
+      "tags": ["sunglasses"],
+      "sizes": [],
+      "colors": ["Black"],
+      "stock": [{ "size": "", "color": "Black", "quantity": 22 }],
+      "images": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "sku": "SKU010",
+      "description": "Portable speaker with deep bass.",
+      "price": 2199,
+      "sale_price": 1999,
+      "categories": ["Electronics"],
+      "tags": ["speaker"],
+      "sizes": [],
+      "colors": ["Black"],
+      "stock": [{ "size": "", "color": "Black", "quantity": 11 }],
+      "images": [
+        "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "active": true
+    }
+  ]
+}
